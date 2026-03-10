@@ -1,0 +1,30 @@
+To run use node filename
+to run server while updating automatically use nodemon filename
+to close server use CNTRL C
+
+
+There are 3 modules:-
+
+core module
+local module/custom module
+third party module
+
+The core module is the main module that contains the core functionality of the application. It is responsible for handling the main logic of the application.
+
+The local module is a module that contains functions and variables that are specific to the current project. It is used to store custom functionality that is not intended to be reused in other projects.
+Created by users.
+
+The third party module is a module that has been written by someone else and is being used in the current project. It is used to provide functionality that is not available in the core module or local module.You can install them with the help of npm.
+
+to convert an object to a string we use JSON.stringify.
+to convert string to an object we use JSON.parse.
+
+
+//EVENTS
+
+eventEmitter is a class, and we will call the functions from it.
+first we will use addListener function.
+emit function will be used after addListener.
+
+by deafult the maximum listener is 10. If we try to use more it will throw an error, memory full.
+use setMaxListener() to increas listeners

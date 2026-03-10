@@ -1,0 +1,19 @@
+first do
+npm init -y
+this is to create package.json file
+then we need to install express
+npm install express
+
+Express is a class of various functions and to use them we have to create an obkect.
+We start by creating a server
+
+ccreate object 
+using new objext banao
+with obj.get create server, give route(localhost:3000/routename) and callback, listen functions
+
+send means response ko wait karna and end response ko end karna and u cant write mmore than one
+
+three types of middleware:
+1. application level middleware
+2. router level middleware
+3. built-in middleware

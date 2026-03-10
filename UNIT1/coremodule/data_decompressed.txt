@@ -1,0 +1,10 @@
+To run use node filename
+to run server while updating automatically use nodemon filename
+to close server use CNTRL C
+
+
+There are 3 modules:-
+
+core module
+local module/custom module
+third party module

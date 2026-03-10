@@ -1,0 +1,8 @@
+first do
+npm init -y
+this is to create package.json file
+then we need to install express
+npm install express
+
+Express is a class of various functions and to use them we have to create an obkect.
+We start by creating a server
