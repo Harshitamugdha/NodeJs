@@ -9,12 +9,16 @@ core module
 local module/custom module
 third party module
 
-The core module is the main module that contains the core functionality of the application. It is responsible for handling the main logic of the application.
+The core module is the main module that contains the core functionality of the application.
+It is responsible for handling the main logic of the application.
 
-The local module is a module that contains functions and variables that are specific to the current project. It is used to store custom functionality that is not intended to be reused in other projects.
+The local module is a module that contains functions and variables that are specific to the current project. It is used to store
+custom functionality that is not intended to be reused in other projects.
 Created by users.
 
-The third party module is a module that has been written by someone else and is being used in the current project. It is used to provide functionality that is not available in the core module or local module.You can install them with the help of npm.
+The third party module is a module that has been written by someone else and is being used in the current project.
+It is used to provide functionality that is not available in the core module or local module.
+You can install them with the help of npm.
 
 to convert an object to a string we use JSON.stringify.
 to convert string to an object we use JSON.parse.

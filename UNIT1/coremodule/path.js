@@ -7,5 +7,8 @@ console.log(__dirname);
 const pathfile=path.join("folder","studnets","data.txt")
 console.log(pathfile);
 const parasetdata=path.parse(pathfile);
-const resolvePath=path.resolve(pathFile);
+console.log(parasetdata);
+const resolvePath=path.resolve(pathfile);
+console.log(resolvePath);
 const extname=path.extname(pathfile);
+console.log(extname);

@@ -59,22 +59,22 @@ obj.removeAllListeners('market')
 obj.emit('market')
 
 //write a code to count the number of time the event is emitted and store the number of count in json file
-obj.addListener('Weather0',(c)=>{
-    console.log(c++)
-})
-obj.addListener('Event0',(c1)=>{
-    console.log(c1++)
-})
-obj.addListener('Marketopen0',(c2)=>{
-    console.log(c2++)
-})
-obj.emit('Marketopen0')
-obj.emit('Weather0')
-obj.emit('Event0')
-obj.emit('Marketopen0')
-obj.emit('Marketopen0')
-obj.emit('Marketopen0')
+// obj.addListener('Weather0',(c)=>{
+//     console.log(c++)
+// })
+// obj.addListener('Event0',(c1)=>{
+//     console.log(c1++)
+// })
+// obj.addListener('Marketopen0',(c2)=>{
+//     console.log(c2++)
+// })
+// obj.emit('Marketopen0')
+// obj.emit('Weather0')
+// obj.emit('Event0')
+// obj.emit('Marketopen0')
+// obj.emit('Marketopen0')
+// obj.emit('Marketopen0')
 
-obj.emit('Event0')
-obj.emit('Event0')
-obj.emit('Event0')
+// obj.emit('Event0')
+// obj.emit('Event0')
+// obj.emit('Event0')

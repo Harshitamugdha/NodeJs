@@ -15,3 +15,6 @@ console.log(appendfile)
 const readfile2=fs.readFileSync(filename); 
 console.log(readfile2.toString())
 //delete file ----unlink
+
+const deletefile=fs.unlinkSync(filename);
+console.log(deletefile)

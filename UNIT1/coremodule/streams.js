@@ -69,7 +69,7 @@ var fs=require('fs')
 // })
 
 
-//transfering the dara or copyng the data from one file to another file using pipe method
+//transfering the data or copying the data from one file to another file using pipe method
 
 // var reader=fs.createReadStream('demo.txt')
 // var writer=fs.createWriteStream('demo1.txt')
